@@ -71,7 +71,7 @@ export default function () {
       .then(() => { alert("Event is Confirmed") })
       .catch((e) => { alert("The slot is already booked") })
     .catch((e) => { alert("EndTime cannot be less than StartTime") })
-    // window.location.reload()
+    window.location.reload()
     // .then(() => { console.log("added data from axios") })
     // .catch((e) => { alert("EndTime cannot be less than StartTime") })
 
